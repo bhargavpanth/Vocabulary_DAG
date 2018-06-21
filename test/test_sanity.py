@@ -2,5 +2,9 @@ import unittest
 
 class SanityChecks(unittest.TestCase):
     
-    pass
-    
+    def test_basic(self):
+        pass
+
+
+if __name__ == '__main__':
+    unittest.main()
