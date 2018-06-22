@@ -3,7 +3,7 @@ import unittest
 
 class Test_Graph_Properties(unittest.TestCase):
     
-    def test_basic(self):
+    def test_find_path(self):
         pass
 
 
