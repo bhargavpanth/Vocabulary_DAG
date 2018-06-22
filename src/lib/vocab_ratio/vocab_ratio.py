@@ -1,6 +1,6 @@
+from __future__ import division
 import json
 import os
-
 
 class VocabRatio:
     
@@ -48,12 +48,17 @@ class VocabRatio:
 
 
     def get_ratio(self, vocab_list=[]):
-        pass
+        # returns a ratio of open_vocabs/total_vocabs and closed_vocabs/total_vocabs
+        open_vocabs, closed_vocabs = self.find_open_and_closed_vocabs(vocab_list)
+        return float(len(open_vocabs)/len(vocab_list)), float(len(closed_vocabs)/len(vocab_list))
 
 
 def main():
     open_vocab, closed_vocab = VocabRatio().find_open_and_closed_vocabs(
         ['http://purl.org/acco/ns', 'https:/github.com'])
+    open_vocab_ratio, closed_vocab_ratio = VocabRatio().get_ratio(
+        ['http://purl.org/acco/ns', 'https:/github.com'])
+    
 
 
 if __name__ == '__main__':
