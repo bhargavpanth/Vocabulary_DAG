@@ -56,5 +56,189 @@
         "dcterms",
         "bibo",
         "dcat"
+    ],
+    "prov": [
+        "rdf",
+        "rdfs",
+        "owl",
+        "xsd"
+    ],
+    "geo": [
+        "dce",
+        "rdf",
+        "rdfs",
+        "foaf"
+    ],
+    "gr": [
+        "rdf",
+        "rdfs",
+        "dcterms",
+        "foaf",
+        "schema",
+        "dce",
+        "xsd"
+    ],
+    "time": [
+        "owl",
+        "rdf",
+        "rdfs",
+        "xsd",
+        "dcterms",
+        "skos"
+    ],
+    "event": [
+        "rdf",
+        "rdfs",
+        "foaf",
+        "time",
+        "vs",
+        "dce",
+        "geo"
+    ],
+    "void": [
+        "rdf",
+        "rdfs",
+        "dcterms",
+        "foaf",
+        "xsd",
+        "vann",
+        "dce"
+    ],
+    "org": [
+        "rdf",
+        "rdfs",
+        "prov",
+        "skos",
+        "foaf",
+        "xsd",
+        "gr",
+        "dcterms"
+    ],
+    "bibo": [
+        "rdf",
+        "rdfs",
+        "foaf",
+        "dcterms",
+        "event",
+        "vs",
+        "skos"
+    ],
+    "adms": [
+        "rdfs",
+        "dcat",
+        "voaf",
+        "wdrs",
+        "dcterms",
+        "rdf",
+        "vann",
+        "xhv"
+    ],
+    "dctype": [
+        "dcam",
+        "rdf",
+        "rdfs",
+        "dcterms"
+    ],
+    "ssn": [
+        "cc",
+        "rdf",
+        "dce",
+        "owl",
+        "dcterms"
+    ],
+    "qb": [
+        "rdf",
+        "rdfs",
+        "skos",
+        "dcterms",
+        "xsd",
+        "scovo"
+    ],
+    "sioc": [
+        "rdf",
+        "rdfs",
+        "dcterms",
+        "foaf",
+        "rdfg",
+        "xsd"
+    ],
+    "doap": [
+        "rdf",
+        "rdfs",
+        "foaf",
+        "dce"
+    ],
+    "frbr": [
+        "foaf",
+        "dce",
+        "geo",
+        "vann",
+        "skos",
+        "rdf",
+        "rdfs",
+        "dcterms",
+        "dce"
+    ],
+    "dcat": [
+        "rdf",
+        "rdfs",
+        "foaf",
+        "skos",
+        "vcard",
+        "vann",
+        "dcterms",
+        "dctype"
+    ],
+    "voaf": [
+        "xsd",
+        "dcterms",
+        "vann",
+        "void",
+        "cal",
+        "frbr",
+        "rdfs",
+        "cc",
+        "vs"
+    ],
+    "dul": [
+        "rdf",
+        "rdfs",
+        "xsd"
+    ],
+    "gn": [
+        "schema",
+        "geo",
+        "rdfs",
+        "skos",
+        "foaf",
+        "dcterms",
+        "rdf",
+        "cc",
+        "vann",
+        "adms",
+        "spatial",
+        "geof"
+    ],
+    "vcard": [
+        "xsd",
+        "rdf",
+        "rdfs"
+    ],
+    "dbpedia-owl": [
+        "rdf",
+        "rdfs",
+        "geo",
+        "vann",
+        "xsd",
+        "owl",
+        "xsd",
+        "schema",
+        "cc",
+        "dul",
+        "prov",
+        "skos",
+        "foaf",
+        "dcterms",
+        "bibo"
     ]
 }

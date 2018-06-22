@@ -1,6 +1,7 @@
 import unittest
 
-class SanityChecks(unittest.TestCase):
+
+class Test_Graph_Properties(unittest.TestCase):
     
     def test_basic(self):
         pass

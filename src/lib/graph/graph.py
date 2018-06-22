@@ -56,26 +56,26 @@ class Graph():
 
 
 
-def main():
-    graph = {
-        "vann": ["dcterms", "rdfs", "rdf"],
-        "foaf": ["geo", "vs", "dce", "rdf", "owl", "geo", "skos", "con", "schema", "rdfs", "dcterms"],
-        "skos": ["rdf", "rdfs", "dcterms"],
-        "dcterms": ["rdf", "rdfs", "skos", "foaf", "dce", "dctypes"],
-        "dce": ["dcterms", "rdf", "skos"],
-        "cc": ["rdf", "rdfs", "dcterms", "xhv"],
-        "vs": ["dce", "rdf", "vann"],
-        "schema": ["rdf", "rdfs", "foaf", "mo", "void", "dctype", "dcterms", "bibo", "dcat"]
-    }
-    shortest_path_graph = Graph(graph).find_shortest_path('vann', 'skos')
-    print shortest_path_graph
-    print Graph(graph).find_path('vann', 'skos')
-    # all_paths = Graph(graph).find_all_path('A','D')
-    # print all_paths
+# def main():
+#     graph = {
+#         "vann": ["dcterms", "rdfs", "rdf"],
+#         "foaf": ["geo", "vs", "dce", "rdf", "owl", "geo", "skos", "con", "schema", "rdfs", "dcterms"],
+#         "skos": ["rdf", "rdfs", "dcterms"],
+#         "dcterms": ["rdf", "rdfs", "skos", "foaf", "dce", "dctypes"],
+#         "dce": ["dcterms", "rdf", "skos"],
+#         "cc": ["rdf", "rdfs", "dcterms", "xhv"],
+#         "vs": ["dce", "rdf", "vann"],
+#         "schema": ["rdf", "rdfs", "foaf", "mo", "void", "dctype", "dcterms", "bibo", "dcat"]
+#     }
+#     shortest_path_graph = Graph(graph).find_shortest_path('vann', 'skos')
+#     print shortest_path_graph
+#     print Graph(graph).find_path('vann', 'skos')
+#     # all_paths = Graph(graph).find_all_path('A','D')
+#     # print all_paths
     
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
 
         
     
