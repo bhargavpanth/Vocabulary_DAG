@@ -23,14 +23,10 @@ class VocabRatio:
         self.uri_detail = uri_detail
 
 
-
-    def get_ratio(self, vocab_list=[]):
+    def find_open_and_closed_vocabs(self, vocab_list=[]):
         '''
         returns the list of open vocabularies
-        '''
-        count = 0
-        total_count = len(vocab_list)
-        
+        ''' 
         open_vocab_list = list()
 
         open_vocab_set = list()
@@ -43,19 +39,22 @@ class VocabRatio:
         if vocab_list:
             for each_vocab in vocab_list:
                 if each_vocab in open_vocab_list:
-                    count += 1
                     open_vocab_set.append(each_vocab)     
                 else:
                     closed_vocab_set.append(each_vocab)   
         else:
             return None
-        
-        print open_vocab_set
-        print closed_vocab_set
-        return True
+        return open_vocab_set, closed_vocab_set
+
+
+    def get_ratio(self, vocab_list=[]):
+        pass
+
 
 def main():
-    test = VocabRatio().get_ratio(['http://purl.org/acco/ns','https:/github.com'])
+    open_vocab, closed_vocab = VocabRatio().find_open_and_closed_vocabs(
+        ['http://purl.org/acco/ns', 'https:/github.com'])
+
 
 if __name__ == '__main__':
     main()
