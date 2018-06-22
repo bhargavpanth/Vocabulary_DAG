@@ -1,0 +1,60 @@
+{
+    "vann": [
+        "dcterms",
+        "rdfs",
+        "rdf"
+    ],
+    "foaf": [
+        "geo",
+        "vs",
+        "dce",
+        "rdf",
+        "owl",
+        "geo",
+        "skos",
+        "con",
+        "schema",
+        "rdfs",
+        "dcterms"
+    ],
+    "skos": [
+        "rdf",
+        "rdfs",
+        "dcterms"
+    ],
+    "dcterms": [
+        "rdf",
+        "rdfs",
+        "skos",
+        "foaf",
+        "dce",
+        "dctypes"
+    ],
+    "dce": [
+        "dcterms",
+        "rdf",
+        "skos"
+    ],
+    "cc": [
+        "rdf",
+        "rdfs",
+        "dcterms",
+        "xhv"
+    ],
+    "vs": [
+        "dce",
+        "rdf",
+        "vann"
+    ],
+    "schema": [
+        "rdf",
+        "rdfs",
+        "foaf",
+        "mo",
+        "void",
+        "dctype",
+        "dcterms",
+        "bibo",
+        "dcat"
+    ]
+}
