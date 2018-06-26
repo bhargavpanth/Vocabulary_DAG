@@ -1,4 +1,5 @@
 
+
 class Graph():
     '''
     find_path -> (takes graph, start_node, end_node)
@@ -53,7 +54,6 @@ class Graph():
                     if not shortest_path or len(new_path) < len(shortest_path):
                         shortest_path = new_path
         return shortest_path
-
 
 
 # def main():

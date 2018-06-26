@@ -1,6 +1,7 @@
 [
     {
-        "dbpedia": [
+        "dataset": "dbpedia",
+        "vocab": [
             "http://dbpedia.org/ontology/",
             "http://dbpedia.org/property/",
             "http://www.w3.org/2000/01/rdf-schema#",
@@ -11,15 +12,21 @@
             "http://xmlns.com/foaf/0.1/",
             "http://purl.org/vocab/vann/",
             "http://creativecommons.org/ns#"
-        ],
-        "yago": [
+        ]
+    },
+    {
+        "dataset": "yago",
+        "vocab": [
             "http://www.w3.org/2002/07/owl#",
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
             "http://www.w3.org/2000/01/rdf-schema#",
             "http://www.w3.org/2004/02/skos/core#",
             "http://www.w3.org/2001/XMLSchema#"
-        ],
-        "dbpedia-es": [
+        ]
+    },
+    {
+        "dataset": "dbpedia-es",
+        "vocab": [
             "http://dbpedia.org/ontology/",
             "http://el.dbpedia.org/property/",
             "http://www.w3.org/2002/07/owl#",
@@ -28,8 +35,11 @@
             "http://www.w3.org/2000/01/rdf-schema#",
             "http://purl.org/dc/terms/",
             "http://dbpedia.org/property/"
-        ],
-        "dbpedia-fr": [
+        ]
+    },
+    {
+        "dataset": "dbpedia-fr",
+        "vocab": [
             "http://dbpedia.org/ontology/",
             "http://fr.dbpedia.org/property/",
             "http://purl.org/dc/elements/1.1/",
