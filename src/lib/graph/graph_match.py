@@ -71,9 +71,9 @@ class GraphMatch():
         gd = len(self.utils_common_vocab_list(geo_dom))
         lsd = len(self.utils_common_vocab_list(life_science))
         
-        # print 'Cross Domain : ', (cd / (cd + gd + lsd))
-        # print 'Geography : ', (gd / (cd + gd + lsd))
-        # print 'Life Sciences : ', (lsd / (cd + gd + lsd))
+        print 'Cross Domain : ', (cd / (cd + gd + lsd))
+        print 'Geography : ', (gd / (cd + gd + lsd))
+        print 'Life Sciences : ', (lsd / (cd + gd + lsd))
         
 
 
